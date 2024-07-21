@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<link lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherForU</title>
+    <link rel="stylesheet" href="./reset.css"></link>
+    <link rel="stylesheet" href="./style.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"></link>
+</head>
+<body>
+    <header class="header">
+        <div class="title"><h1>WeatherForU</h1></div>
+        <div class="search">
+            <input type="search" id="input" placeholder="Enter City">
+            <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container" id="container">
+            <div class="location"><h1><i class="fa-solid fa-location-dot"></i>Location</h1></div>
+            <div class="details">
+            <span class="temp"><i class="fa-solid fa-temperature-three-quarters"></i> Temp</span>
+            <span class="clouds"><i class="fa-solid fa-cloud"></i> Climate</span>                
+            </div>
+        </div>
+        <br>
+        <div class="detailed">
+            <button id="detailed"><a href="./weatherDetailed.html">Details</a></button>
+        </div>
+    </main>
+    <footer>
+        <h3>© Lowhithya Kona</h3>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
